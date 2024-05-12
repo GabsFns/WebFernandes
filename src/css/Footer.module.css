@@ -1,0 +1,45 @@
+.LayoutFooter{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Poppins;
+    padding: 15px;
+}
+.LayoutFooter img{
+    width: 300px;
+}
+.LayoutBTT{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+.LayoutBTT button{
+    padding: 8px;
+    border: 30px;
+    background-color: #abcfae;
+}
+
+hr{
+    padding: 4px;
+    background-color: #ffffff;
+    border: none;
+}
+.TitleFooter{
+    font-family: Jersey;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    padding: 0px 0px 0px 30px;
+}
+@media only screen and (max-width:500px) {
+    .LayoutFooter p {
+        display: none;
+    }
+    .TitleFooter{
+        font-family: Jersey;
+        color: rgb(0, 0, 0);
+        font-size: 60px;
+        padding: 0px;
+    }
+}

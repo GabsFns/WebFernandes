@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+.LayoutArticle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.LayoutArticle hr{
+    padding: 6px;
+    border: none;
+    margin: 10px;
+    border-radius: 30px;
+    background-color: #769671;
+}
+.TitleStyle{
+    max-width: 500px;
+    min-width: 200px;
+    padding: 90px 90px 0px 90px;
+    margin: 0px 80px 110px 0px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.TitleStyle h3{
+    font-size: 18px;
+    margin: 0;
+    font-family: Poppins;
+}
+.TitleStyle h1{
+    font-size: 52px;
+    margin: 0;
+    font-family: Roboto;
+}
+.TitleStyle p{
+    font-size: 26px;
+    margin: 0;
+    font-family: Poppins;
+}
+.ImgMe{
+    width: 740px;
+    
+}
+@media only screen and (max-width:500px){
+    .LayoutArticle{
+        display: flex;
+        flex-direction: column;
+    }
+    .TitleStyle{
+        max-width: 250px;
+        min-width: 100px;
+        padding: 0;
+        margin: 0;
+        color: white;
+        display: flex;
+        text-align: center;
+        margin: auto;
+        margin-top: 80px;
+    }
+    .TitleStyle h1{
+        font-size: 38px;
+        
+        margin: 0;
+        font-family: Roboto;
+    }
+    .LayoutArticle hr{
+        display: none;
+    }
+}

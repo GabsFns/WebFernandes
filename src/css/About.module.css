@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+.AboutLayout{
+    margin: auto;
+    border-radius: 90px 40px 0px 0px;
+    padding: 70px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: white;
+}
+.AboutLayout img{
+    width: 500px;
+}
+.AboutLayout h1{
+    font-family: Roboto;
+}
+.AboutDescricao{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: justify;
+    padding: 60px 20px 0px 20px;
+
+}
+.AboutDescricao h3{
+    font-family: Roboto;
+}
+.AboutDescricao p{
+    width: 400px;
+    font-family: Poppins;
+}
+.BttCurriculo{
+    width: 300px;
+    padding: 8px;
+    background-color: white;
+    border: 2px solid #8ca484;
+    color: #8ca484;
+    border-radius: 30px;
+    transition: all 0.2s ease-in;
+}
+.BttCurriculo:hover{
+    border:2px solid black;
+    box-shadow: 2px 2px #8ca484,
+                4px 4px #3c4f3c;
+    color: black;
+    background-color: #8ca484;
+}
+
+@media only screen and (max-width:500px) {
+    .AboutLayout img{
+        display: none;
+    }
+    .AboutDescricao{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 30px;
+    
+    }
+    .AboutDescricao p{
+        width: 300px;
+        font-family: Poppins;
+    }
+}

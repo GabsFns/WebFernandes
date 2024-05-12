@@ -1,0 +1,48 @@
+.NavContact{
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 30px;
+    align-items: center;
+    max-width: 500px;
+    min-width: 300px;
+    padding: 10px 0px;
+}
+.NavContact img{
+    filter: invert(100%);
+    width: 25px;
+    
+}
+.NavBtt{
+    padding: 16px;
+    width: 250px;
+    border: 1px solid #ffffff;
+    background-color: #3c4f3c;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 40px;
+    transition: all 0.5s ease-in;
+}
+
+.NavBtt:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid #3c4f3c;
+}
+@media only screen and (max-width:500px){
+    .NavContactIMG{
+        display: flex;
+        margin: auto;
+        gap: 10px;
+    }
+    .NavContact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100px;
+        min-width: 100px;
+        
+        
+    }
+    
+}

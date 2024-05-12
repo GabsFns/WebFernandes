@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Jersey;
+    src: url(../fonts/Jersey15-Regular.ttf);
+}
+
+
+.LayoutHeader{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 40px;
+    
+}
+
+.LayoutHeader img{
+    width: 200px;
+}
+.LayoutHeader ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    font-family: Poppins;
+    color: white;
+    transition: all 0.2s ease-in;
+    list-style: none;
+    
+}
+ul p:hover{
+    border-bottom: 2px solid #769671;
+}
+.TitleHeader{
+    font-family: Jersey;
+    color: white;
+    font-size: 60px;
+    
+    
+}
+
+    @media only screen and (max-width:500px){
+        .TitleHeader{
+            display: none;
+            
+        }
+        .LayoutHeader {
+            display: flex;
+            justify-content: center;
+            background-color: #769671;
+            border-radius: 60px;
+            
+            
+        }
+        .LayoutHeader ul{
+            gap: 20px;
+            padding: 0px;
+        }
+       
+    }

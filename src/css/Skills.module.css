@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+.SkillsCaixaLayout{
+    background-color: #ffffff;
+    padding: 60px 60px;
+    
+    box-shadow: 0px 30px 10px 0px #3c4f3c7c;
+    font-family: Roboto;
+}
+
+.SkillsLayout{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px 0px 100px 0px;
+}
+.SkillsLayout img{
+    width: 100px;
+    
+}
+.SkillsTitle{
+    width: 290px;
+    border-bottom: 4px solid #abcfae;
+    margin: auto;
+    text-align: center;
+    color: #3c4f3c;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 24px;
+    
+}
+@media only screen and (max-width:500px) {
+    .SkillsLayout img{
+        width: 70px;
+        
+    }
+    .SkillsLayout{
+        gap: 30px;
+    }
+    .SkillsTitle{
+        
+        border-bottom: 4px solid #abcfae;
+        
+        text-align: center;
+        color: #3c4f3c;
+        margin-bottom: 30px;
+        font-size: 24px;
+        
+    }
+    .SkillsCaixaLayout{
+        background-color: #ffffff;
+        padding: 40px;
+        
+        box-shadow: 0px 30px 10px 0px #3c4f3c7c;
+        font-family: Roboto;
+    }
+}

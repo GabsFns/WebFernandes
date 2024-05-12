@@ -1,0 +1,172 @@
+.TitleLayoutCaixa{
+    background-color: #3c4f3cdc;
+    padding: 20px;
+    border-radius: 120px 50px 0px 0px;
+    box-shadow: 0px 30px 10px 0px #3c4f3c69,
+                0px 35px 15px 0px #8ca48462;
+}
+.TitleLayoutCaixa h1{
+    font-family: Roboto;
+    text-align: center;
+    color: white;
+}
+.LayoutArticle{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center; 
+}
+
+.LayoutSectionContact{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: justify;
+}
+.LayoutSectionContact p{
+    width: 400px;
+    font-family: Poppins;
+}
+.LayoutSectionContact h2{
+    font-family: Roboto;
+    margin: 0;
+}
+.LayoutContactME{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: #83a384;
+    margin: 10px 0px;
+    border-radius: 50px;
+}
+
+
+
+.LayoutInput{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 60px 40px;
+    align-items: end;
+    background-color: #8ca484;
+    border-radius: 50px;
+}
+.LayoutInput input{
+    padding: 12px;
+    width: 300px;
+    margin: 10px 0px;
+    outline: none;
+    font-family: Poppins;
+}
+.LayoutInput textarea[id=mensagem]{
+    width: 322px;
+    height: 80px;
+    resize: none;
+    margin: 0px 0px 10px 0px;
+    outline: none;
+    font-family: Poppins;
+}
+.LayoutInput button{
+    width: 150px;
+    padding: 6px;
+    outline: none;
+    background-color: #3c4f3c;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    
+}
+@media only screen and (max-width:500px){
+    .LayoutArticle{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .TitleLayoutCaixa{
+        background-color: #3c4f3cdc;
+        padding: 30px;
+        border-radius: 120px 50px 0px 0px;
+        box-shadow: 0px 30px 10px 0px #3c4f3c69,
+                    0px 35px 15px 0px #8ca48462;
+    }
+    .TitleLayoutCaixa h1{
+        font-family: Roboto;
+        text-align: center;
+        color: white;
+    }
+    .LayoutArticle{
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        align-items: center; 
+    }
+    
+    .LayoutSectionContact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .LayoutSectionContact p{
+        width: 300px;
+        text-align: center;
+        font-family: Poppins;
+    }
+    .LayoutSectionContact h2{
+        font-family: Roboto;
+        margin: 0;
+        text-align: center;
+    }
+    .LayoutContactME{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        padding: 0px 10px;
+        background-color: #83a384;
+        margin: 10px 0px;
+        border-radius: 50px;
+    }
+    
+    
+    
+    .LayoutInput{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 20px 20px;
+        margin: 50px 0px 0px;
+        align-items: end;
+        background-color: #8ca484;
+        border-radius: 50px;
+    }
+    .LayoutInput input{
+        padding: 12px;
+        border-radius: 15px;
+        border: none;
+        width: 250px;
+        margin: 10px 0px;
+        outline: none;
+        font-family: Poppins;
+    }
+    .LayoutInput textarea[id=mensagem]{
+        width: 272px;
+        height: 80px;
+        resize: none;
+        margin: 0px 0px 10px 0px;
+        outline: none;
+        font-family: Poppins;
+        border-radius: 10px;
+    }
+    .LayoutInput button{
+        width: 150px;
+        padding: 6px;
+        outline: none;
+        background-color: #3c4f3c;
+        color: white;
+        border: 2px solid white;
+        border-radius: 20px;
+        
+    }
+    
+}
