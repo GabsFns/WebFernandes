@@ -21,15 +21,15 @@ function TitleApresentacao(){
             </div>
                 <div className={StylesNav.NavContact}>
                     <div className={StylesNav.NavContactIMG}>
-                        <a href="">
+                        
                             <img src={LinkdinIcon} alt="linkedin"/>
-                        </a>
-                        <a href="">
+                       
+                        
                             <img src={IconGit} alt="github"/>
-                        </a>
-                        <a href="">
+                        
+                        
                             <img src={InstaIcon} alt="instagram"/>
-                        </a>
+                        
                     </div>
                     <button className={StylesNav.NavBtt}>Entre em Contato</button>
                 </div>
