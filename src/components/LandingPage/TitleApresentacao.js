@@ -1,12 +1,12 @@
 import Styles from "../../css/TitlePrinci.module.css"
-import ImageApresentMe from "../../images/Mefinal1.PNG"
+
 import StylesNav from "../../css/NavContact.module.css"
 import githubIconImage from "../../images/githubIcon.png"
 import linkedinIconImage from "../../images/linkedinIcon.png"
 import InstagramIconImage from "../../images/instagramIcon.png"
 
 function TitleApresentacao(){
-    const ImgApresent = ImageApresentMe;
+   
     const IconGit = githubIconImage;
     const LinkdinIcon = linkedinIconImage;
     const InstaIcon = InstagramIconImage

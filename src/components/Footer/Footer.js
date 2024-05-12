@@ -1,9 +1,9 @@
 import { FaLinkedin, FaInstagramSquare, FaPaste } from "react-icons/fa";
 import Styles from "../../css/Footer.module.css";
-import ImageFooterLogo from "../../images/LogoFooterPORT.png"
+
 
 function Footer(){
-const Logo = ImageFooterLogo;
+
 
     return(
         <>

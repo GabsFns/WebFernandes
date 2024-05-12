@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import Styles from "../../css/Header.module.css";
-import ImageLogoHeader from "../../images/LogoHeaderPORT.png";
+
 
 
 function HeaderPortfolio ({ navegacao1, navegacao2, navegacao3, navegacao4 }) {
-    const logo = ImageLogoHeader;
+    
     
     return (
         <>
