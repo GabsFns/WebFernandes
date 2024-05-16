@@ -30,7 +30,9 @@ function PageContact() {
     emailjs.send("service_96pk8zi", "template_vcbm0eu", templateParams, "pnedYG2nm0l8SRjWq")
       .then((response) => {
         alert("Email enviado com sucesso");
+        
         console.log("Email enviado:", response.status, response.text);
+
         setName("");
         setEmail("");
         setMessage("");
