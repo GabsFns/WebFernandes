@@ -11,6 +11,7 @@ import AngularLogo from "../../images/AngularLogo.png";
 import HTMLLogo from "../../images/HTMLLogo.png";
 import CSSLogo from "../../images/CSSLogo.png";
 import BootstrapLogo from "../../images/BootstrapLogo.png"
+import MongoDBLogo from "../../images/MongoDBLogo.png"
 
 function Skills() {
     const logoBack = [
@@ -24,23 +25,15 @@ function Skills() {
             src: JavaLogo,
             alt: 'Java Logo',
         },
+        
         { 
             id: 3,
-            src: CLogo,
-            alt: 'C Logo',
-        },
-        { 
-            id: 4,
             src: PhpLogo,
             alt: 'Php Logo',
         },
+        
         { 
-            id: 5,
-            src: MysqlLogo,
-            alt: 'Mysql Logo',
-        },
-        { 
-            id: 6,
+            id: 4,
             src: NodeJsLogo,
             alt: 'Node.js Logo',
         }
@@ -77,6 +70,18 @@ function Skills() {
             alt: 'Javascript Logo'
         }
     ]
+    const DataBase =[
+        {
+            id: 1,
+            src: MongoDBLogo,
+            alt: 'MongoDb logo'
+        },
+        { 
+            id: 5,
+            src: MysqlLogo,
+            alt: 'Mysql Logo',
+        }
+    ]
 
     return (
         <section id='skills' className={Styles.SkillsCaixaLayout}>
@@ -92,6 +97,14 @@ function Skills() {
                 <h3 className={Styles.SkillsTitle}>Ferramentas e Tecnologias Back-end</h3>
             <div className={Styles.SkillsLayout}> 
                 {logoBack.map((logo) => (
+                    <div key={logo.id}>
+                        <img src={logo.src} alt={logo.alt} />
+                    </div>
+                ))}
+            </div>
+            <h3 className={Styles.SkillsTitle}>DataBase</h3>
+            <div className={Styles.SkillsLayout}> 
+                {DataBase.map((logo) => (
                     <div key={logo.id}>
                         <img src={logo.src} alt={logo.alt} />
                     </div>
