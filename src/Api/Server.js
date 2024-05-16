@@ -11,6 +11,14 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(express.json());
 
+
+const connection = require("./Database/connection")
+connection();
+
+app.listen(5000, () => {
+    console.log("Inicializando o Servidor na Porta: " + PORT)
+});
+
 // NodeMailer Process
 /*const transporter = nodemailer.createTransport({
     service: 'gmail',
@@ -39,9 +47,3 @@ app.post('/', (req, res) => {
     });
 });
 */
-const connection = require("./Database/connection")
-connection();
-
-app.listen(5000, () => {
-    console.log("Inicializando o Servidor na Porta: " + PORT)
-});

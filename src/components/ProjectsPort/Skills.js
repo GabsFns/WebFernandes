@@ -2,7 +2,6 @@ import React from 'react';
 import Styles from "../../css/Skills.module.css";
 import JavaScriptLogo from "../../images/JavaScriptLogo.png";
 import JavaLogo from "../../images/JavaLogo.png";
-import CLogo from "../../images/CLogo.png";
 import PhpLogo from "../../images/PhpLogo.png";
 import MysqlLogo from "../../images/MysqlLogo.png";
 import NodeJsLogo from "../../images/NodeJsLogo.png";
