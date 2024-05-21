@@ -24,9 +24,18 @@
 }
 .LayoutElementSection{
     display: flex;
-    justify-content: space-around;
-    padding: 50px;
+    justify-content: space-evenly;
+    
+    align-items: center;
+    padding: 0px 0px 0px 50px;
     margin: 70px 0px;
+    
+}
+.LayoutElementSection h3{
+    font-family: Roboto;
+}
+.LayoutElementSection p{
+    font-family: Poppins;
     
 }
 .TitleProjects{
@@ -37,8 +46,13 @@
 .LayoutElementAside{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
+    text-align: justify;
+    width: 400px;
 
+}
+.LayoutElementAside img{
+    width: 500px;
 }
 .LayoutElementAsideIMG{
     display: flex;
@@ -51,14 +65,34 @@
     background: none;
     border: none;
 }
+.LayoutElementButton{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.LayoutElementButton button{
+    width: 200px;
+    padding: 15px;
+    background-color: #ffffff;
+    color: #8ca484;
+    border: 1px solid #8ca484;
+    font-family: Poppins;
+}
 path svg{
     width: 50px;
 }
 @media only screen and (max-width:500px){
     .LayoutElementSection{
         flex-direction: column;
+        padding: 0px;
     }
     .LayoutElementAside{
         align-items: center;
+    }
+    .LayoutElementButton{
+        flex-direction: column;
+    }
+    .LayoutElementButton button{
+        width: 200px;
     }
 }
